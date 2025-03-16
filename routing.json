@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "pattern": "^/(\\w+)-otelleri$",
+      "page": "/facility"
+    },
+    {
+      "pattern": "^/(\\w+)-hotels$",
+      "page": "/facility"
+    }
+  ]
+}

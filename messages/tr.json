@@ -1,0 +1,17 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "hotels": "Oteller"
+  },
+  "common": {
+    "viewDetails": "Detayları Gör",
+    "from": "Başlayan fiyatlarla",
+    "night": "gece",
+    "darkMode": "Karanlık Mod",
+    "lightMode": "Aydınlık Mod"
+  },
+  "locations": {
+    "bodrum": "Bodrum",
+    "antalya": "Antalya"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "navigation": {
+    "home": "Home",
+    "hotels": "Hotels"
+  },
+  "common": {
+    "viewDetails": "View Details",
+    "from": "From",
+    "night": "night",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "locations": {
+    "bodrum": "Bodrum",
+    "antalya": "Antalya"
+  }
+}
