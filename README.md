@@ -1,6 +1,6 @@
 # Facility Code Case
 
-Bu proje, otel ve restoran listelerini gösteren, çoklu dil desteği olan modern bir web uygulamasıdır.
+Bu proje, otel ve restoran listelerini gösteren, çoklu dil desteği olan bir web uygulamasıdır.
 
 ## Geliştirme
 
@@ -14,6 +14,9 @@ yarn build / npm run build
 # Geliştirme sunucusunu başlat
 yarn dev / npm run dev
 
+# Geliştirme sunucusunu önizle
+http://localhost:3000
+
 
 
 ## Kullanılan Teknolojiler
@@ -25,21 +28,21 @@ yarn dev / npm run dev
 - **Tailwind CSS** - Stil ve responsive tasarım için
 
 ### Internationalization (i18n)
-- **next-intl** 
+- **next-intl**
   - Çoklu dil desteği
   - Desteklenen diller: Türkçe (tr) ve İngilizce (en)
   - Dil değiştirme ve yönlendirme
   - SEO dostu URL yapısı
 
 ### State Management
-- **Zustand** 
+- **Zustand**
   - Uygulama genelinde state yönetimi
   - Dil tercihleri
   - Para birimi tercihleri
   - Tema tercihleri (Dark/Light mode)
 
 ### SEO ve Metadata
-- **Next.js Metadata API** 
+- **Next.js Metadata API**
   - Dinamik SEO optimizasyonu
   - Sayfa bazlı meta etiketleri
   - Open Graph ve Twitter Card desteği
@@ -94,3 +97,4 @@ yarn dev / npm run dev
 - Image optimizasyonu
 - Lazy loading
 
+```
