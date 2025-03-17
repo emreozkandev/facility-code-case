@@ -18,10 +18,10 @@ yarn dev / npm run dev
 http://localhost:3000
 
 
-![Proje Arayüzü](screenshot/1.png)
-![Proje Arayüzü](screenshot/2.png)
-![Proje Arayüzü](screenshot/3.png)
-![Proje Arayüzü](screenshot/4.png)
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/1.png)
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/2.png)
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/3.png)
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/4.png)
 
 ## Kullanılan Teknolojiler
 
