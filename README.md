@@ -18,6 +18,10 @@ yarn dev / npm run dev
 http://localhost:3000
 
 
+![Proje Arayüzü](./static/screenshot/1.png)
+![Proje Arayüzü](./static/screenshot/2.png)
+![Proje Arayüzü](./static/screenshot/3.png)
+![Proje Arayüzü](./static/screenshot/4.png)
 
 ## Kullanılan Teknolojiler
 
