@@ -4,6 +4,11 @@ Bu proje, otel ve restoran listelerini gösteren, çoklu dil desteği olan bir w
 
 ## Geliştirme
 
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/1.png)
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/2.png)
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/3.png)
+![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/4.png)
+
 ```bash
 # Bağımlılıkları yükle
 yarn / npm install
@@ -17,11 +22,6 @@ yarn dev / npm run dev
 # Geliştirme sunucusunu önizle
 http://localhost:3000
 
-
-![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/1.png)
-![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/2.png)
-![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/3.png)
-![Proje Arayüzü](https://github.com/emreozkandev/facility-code-case/blob/main/screenshot/4.png)
 
 ## Kullanılan Teknolojiler
 
