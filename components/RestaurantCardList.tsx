@@ -6,33 +6,20 @@ import { useLocale } from "next-intl";
 import { createDynamicUrl, routePatterns } from "@/lib/routes";
 import Link from "next/link";
 
-export default function HotelCardList() {
+export default function RestaurantCardList() {
   const t = useTranslations();
   const locale = useLocale();
 
   const locations = [
     {
       slug: "bodrum",
-      imageUrl: "https://images.unsplash.com/photo-1566073771259-6a8506099945",
-      translationKey: "locations.bodrum",
+      imageUrl: "https://images.unsplash.com/photo-1578474846511-04ba529f0b88",
+      translationKey: "restaurants.locations.bodrum",
     },
     {
       slug: "antalya",
-      imageUrl: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
-      translationKey: "locations.antalya",
-    },
-  ];
-
-  const dinings = [
-    {
-      slug: "bodrum",
-      imageUrl: "https://images.unsplash.com/photo-1566073771259-6a8506099945",
-      translationKey: "locations.bodrum",
-    },
-    {
-      slug: "antalya",
-      imageUrl: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
-      translationKey: "locations.antalya",
+      imageUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+      translationKey: "restaurants.locations.antalya",
     },
   ];
 
@@ -41,7 +28,7 @@ export default function HotelCardList() {
       {locations.map((location) => (
         <Link
           key={location.slug}
-          href={createDynamicUrl(locale, location.slug, routePatterns.facility)}
+          href={createDynamicUrl(locale, location.slug, routePatterns.restaurant)}
           className="block group hover:transform hover:scale-105 transition-transform duration-200"
           title={t(location.translationKey)}
         >

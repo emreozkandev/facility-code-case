@@ -1,7 +1,25 @@
 {
   "navigation": {
     "home": "Home",
-    "hotels": "Hotels"
+    "hotels": "Hotels",
+    "restaurants": "Restaurants"
+  },
+  "seo": {
+    "home": {
+      "title": "Hotel Booking | Best Hotel Deals",
+      "description": "Experience an unforgettable holiday with the best hotel deals and special discounts at luxury and comfortable hotels.",
+      "keywords": "hotel booking, luxury hotels, holiday, accommodation, hotel deals"
+    },
+    "facility": {
+      "title": "{location} Hotels | Best Hotel Deals in {location}",
+      "description": "Find the best hotel deals in {location}. Book now for an unforgettable holiday experience in luxury and comfortable {location} hotels.",
+      "keywords": "{location} hotels, {location} hotel booking, {location} accommodation"
+    },
+    "restaurant": {
+      "title": "{location} Restaurants | Best Dining Spots in {location}",
+      "description": "Discover the best restaurants in {location}. Experience selected restaurants offering local and world cuisine.",
+      "keywords": "{location} restaurants, {location} dining, {location} restaurant booking"
+    }
   },
   "common": {
     "viewDetails": "View Details",
@@ -11,7 +29,28 @@
     "lightMode": "Light Mode"
   },
   "locations": {
-    "bodrum": "Bodrum",
-    "antalya": "Antalya"
+    "bodrum": "Bodrum Hotels",
+    "antalya": "Antalya Hotels"
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "locations": {
+      "bodrum": "Bodrum Restaurants",
+      "antalya": "Antalya Restaurants"
+    },
+    "list": {
+      "bodrum": {
+        "restaurant1": "Marina Fish Restaurant",
+        "restaurant2": "Korfez Restaurant",
+        "restaurant3": "Limon Cafe & Restaurant",
+        "restaurant4": "Mimoza Restaurant"
+      },
+      "antalya": {
+        "restaurant1": "7 Mehmet Restaurant",
+        "restaurant2": "Seraser Fine Dining",
+        "restaurant3": "Club Arma Restaurant",
+        "restaurant4": "Big Chefs Lara"
+      }
+    }
   }
 }

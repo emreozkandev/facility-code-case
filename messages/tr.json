@@ -1,7 +1,25 @@
 {
   "navigation": {
     "home": "Ana Sayfa",
-    "hotels": "Oteller"
+    "hotels": "Oteller",
+    "restaurants": "Restoranlar"
+  },
+  "seo": {
+    "home": {
+      "title": "Otel Rezervasyon | En İyi Otel Fırsatları",
+      "description": "En iyi otel fırsatları ve özel indirimlerle lüks ve konforlu otellerde unutulmaz bir tatil deneyimi yaşayın.",
+      "keywords": "otel rezervasyon, lüks oteller, tatil, konaklama, otel fırsatları"
+    },
+    "facility": {
+      "title": "{location} Otelleri | En İyi {location} Otel Fırsatları",
+      "description": "{location}'da en iyi otel fırsatları. Lüks ve konforlu {location} otellerinde unutulmaz bir tatil deneyimi için hemen rezervasyon yapın.",
+      "keywords": "{location} otelleri, {location} otel rezervasyon, {location} konaklama"
+    },
+    "restaurant": {
+      "title": "{location} xx Restoranları | En İyi {location} Yemek Mekanları",
+      "description": "{location}'nın en iyi restoranlarını keşfedin. Yerel ve dünya mutfağından lezzetler sunan seçkin restoranlar.",
+      "keywords": "{location} restoranları, {location} yemek, {location} restoran rezervasyon"
+    }
   },
   "common": {
     "viewDetails": "Detayları Gör",
@@ -11,7 +29,28 @@
     "lightMode": "Aydınlık Mod"
   },
   "locations": {
-    "bodrum": "Bodrum",
-    "antalya": "Antalya"
+    "bodrum": "Bodrum Otelleri",
+    "antalya": "Antalya Otelleri"
+  },
+  "restaurants": {
+    "title": "Restoranlar",
+    "locations": {
+      "bodrum": "Bodrum Restoranları",
+      "antalya": "Antalya Restoranları"
+    },
+    "list": {
+      "bodrum": {
+        "restaurant1": "Marina Balık Restaurant",
+        "restaurant2": "Korfez Restaurant",
+        "restaurant3": "Limon Cafe & Restaurant",
+        "restaurant4": "Mimoza Restaurant"
+      },
+      "antalya": {
+        "restaurant1": "7 Mehmet Restaurant",
+        "restaurant2": "Seraser Fine Dining",
+        "restaurant3": "Club Arma Restaurant",
+        "restaurant4": "Big Chefs Lara"
+      }
+    }
   }
 }

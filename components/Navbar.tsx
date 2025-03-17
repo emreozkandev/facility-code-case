@@ -7,6 +7,13 @@ import { useTheme } from "@/contexts/ThemeContext";
 import { Sun, Moon, Globe, Coins, HomeIcon } from "lucide-react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import Link from "next/link";
+import { useLocale } from 'next-intl';
+import { getLocalizedUrl } from '@/lib/utils';
+
+const languageOptions = {
+  tr: "Türkçe",
+  en: "English"
+};
 
 export default function Navbar() {
   const t = useTranslations();
@@ -14,11 +21,13 @@ export default function Navbar() {
   const pathname = usePathname();
   const { theme, toggleTheme } = useTheme();
   const { currency, setCurrency, language, setLanguage } = useAppStore();
+  const currentLocale = useLocale();
 
-  const handleLanguageChange = (newLanguage: string) => {
-    setLanguage(newLanguage as "en" | "tr");
-    const newPathname = pathname.replace(`/${language}`, `/${newLanguage}`);
-    router.replace(newPathname);
+  const handleLanguageChange = (newLocale: 'tr' | 'en') => {
+    if (newLocale === currentLocale) return;
+    setLanguage(newLocale);
+    const newPath = getLocalizedUrl(pathname, currentLocale, newLocale);
+    router.push(newPath);
   };
 
   return (
@@ -37,11 +46,19 @@ export default function Navbar() {
               <Globe className="h-5 w-5" />
               <Select value={language} onValueChange={handleLanguageChange}>
                 <SelectTrigger className="w-[100px]">
-                  <SelectValue />
+                  <SelectValue placeholder={languageOptions[language as keyof typeof languageOptions]} />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="tr">Türkçe</SelectItem>
-                  <SelectItem value="en">English</SelectItem>
+                  <SelectItem value="tr">
+                    <span className="flex items-center">
+                      Türkçe
+                    </span>
+                  </SelectItem>
+                  <SelectItem value="en">
+                    <span className="flex items-center">
+                      English
+                    </span>
+                  </SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -50,7 +67,7 @@ export default function Navbar() {
               <Coins className="h-5 w-5" />
               <Select value={currency} onValueChange={(value) => setCurrency(value as "TRY" | "USD" | "EUR")}>
                 <SelectTrigger className="w-[100px]">
-                  <SelectValue />
+                  <SelectValue placeholder={currency} />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="TRY">TRY</SelectItem>
